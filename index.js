@@ -64,7 +64,9 @@ module.exports = {
     this.chromeFlags = [
       '--headless',
       '--no-sandbox',
-      '--ignore-certificate-errors'
+      '--ignore-certificate-errors',
+      '--no-gpu',
+      '--disable-dev-shm-usage'
     ];
 
     this.usingBrowsertime = false;
